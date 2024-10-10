@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    
+    color: wheat;
+    width: 80%;
+}
+.btns{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    cursor: pointer;
+    padding: 16px 13px;
+    border-radius: 20px;
+    background-color: #f2ebeb;
+}
+.bars{
+    /* max-width: 70%; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* flex-direction: row; */
+}
+.bardiv{
+    background: #f3e310;
+    width: 4px;
+    /* height: ; */
+}
+/* input{
+
+    background: red;
+    
+    } */
+    .range{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    input{
+    /* width: 100%; */
+    width: 560px;
+    margin-top: 1rem;
+    appearance: none;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 1rem ;
+    margin-bottom: 1.5rem;
+    background-image: linear-gradient(rgb(101, 120, 174), rgb(130, 184, 182) );
+    height: 0.75rem;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    
+  }
+  input::-webkit-slider-thumb {
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    background-color: yellow;
+    border-radius: 50%  ;
+    cursor: pointer;
+    margin-top: -3px;
+    box-shadow: 0px 0px 20px 0px rgb(255, 229, 61, 0.50);
+    transform: all 100ms ease-in;
+  }
+   
+  input:focus{
+    outline: 3px solid yellow;
+  }
+  
+  input::-webkit-slider-thumb:hover{
+    outline: 2px solid yellow;
+    background-color: violet;
+    box-shadow: 0px 0px 25px 5px rgba(255, 29, 61,0.7);
+  }
+  .playPasue{
+    display: none;
+  }
+  .active{
+    display: flex;
+  }
