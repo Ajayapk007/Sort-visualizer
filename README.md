@@ -74,7 +74,7 @@ sorting-visualizer/
 
 1. Clone the repository
 ```bash
-   git clone https://github.com/yourusername/sorting-visualizer.git
+   git clone https://github.com/Ajayapk007/sorting-visualizer.git
 ```
 
 2. Open `index.html` in your browser — no build tools or dependencies needed!
@@ -110,4 +110,4 @@ sorting-visualizer/
 
 ## 👨‍💻 Author
 
-Made with ❤️ and a lot of `await`s
+Made with ❤️ and a lot of `await`
