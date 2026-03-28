@@ -1,6 +1,3 @@
-
-
-
 function swap(el1,el2)
 {
     const style1 = window.getComputedStyle(el1);
@@ -44,7 +41,7 @@ function swap(el1,el2)
     }
 }
 String.prototype.trueInt = function() {
-    let numericString = this.replace(/\D/g, ''); // Remove non-numeric characters
-    return parseInt(numericString, 10); // Parse numeric string into integer
+    let numericString = this.replace(/\D/g, '');  
+    return parseInt(numericString, 10);  
 }
 export default bubbleSort;
